@@ -1,0 +1,10 @@
+{
+  "name": "boekweit-transport-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static marketing website for Boekweit Transport B.V.",
+  "scripts": {
+    "test": "node tests/check-links.js",
+    "start": "python -m http.server 8080"
+  }
+}
