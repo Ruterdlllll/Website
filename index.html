@@ -1,324 +1,517 @@
-<!doctype html>
-<html lang="nl">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Boekweit Transport | Autolaadkranen, LZV &amp; Speciaal Transport</title>
-<meta name="description" content="Boekweit Transport B.V. — sinds 1962 dé specialist in autolaadkranen, LZV, speciaal transport en industriële verhuizingen in Zuidoost-Brabant en daarbuiten.">
-<link rel="icon" href="assets/images/favicon.png">
-<link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ipê — Fine Jewelry from Brazil</title>
+<meta name="description" content="Ipê — fine gold, silver and gemstone jewelry handcrafted in Brazil, shipped worldwide from the Netherlands.">
+<meta property="og:title" content="Ipê — Fine Jewelry from Brazil">
+<meta property="og:description" content="Fine gold, silver and gemstone jewelry — sourced directly from Brazil, made for every day and every occasion.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%8E%3C/text%3E%3C/svg%3E">
+<script src="./support.js"></script>
 </head>
 <body>
+<x-dc>
+<helmet data-dc-atomics>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;background:#F6F1E9}
+  a{color:#454B3A;text-decoration:none}
+  a:hover{color:#2B2721}
+  ::selection{background:#454B3A;color:#F6F1E9}
+  @keyframes ipeSlideIn{from{transform:translateX(100%)}to{transform:translateX(0)}}
+  @keyframes ipeFade{from{opacity:0}to{opacity:1}}
+  select:focus{outline:none}
+</style>
+</helmet>
 
-<!-- ============ TOPBAR ============ -->
-<div class="topbar">
-  <div class="container">
-    <div class="topbar-links">
-      <a href="tel:+31499421419"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +31 (0) 499 421419</a>
-      <a href="mailto:info@boekweittransport.nl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg> info@boekweittransport.nl</a>
-      <a href="contact.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Papenhoef 3, Lieshout</a>
-    </div>
-    <div class="topbar-social">
-      <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></a>
-    </div>
-  </div>
-</div>
+<div style="--accent:{{ accent }};background:#F6F1E9;color:#2B2721;font-family:'Jost',system-ui,sans-serif;min-height:100vh">
 
-<!-- ============ HEADER ============ -->
-<header class="site-header">
-  <div class="container">
-    <a href="index.html" class="brand">
-      <img src="assets/images/logo.png" alt="Boekweit Transport">
-      <span class="brand-text">Boekweit Transport<span>Safe · Professional · On schedule</span></span>
-    </a>
+  <!-- announcement -->
+  <div style="background:var(--accent,#454B3A);color:#EFE9DC;text-align:center;padding:9px 16px;font-size:11px;letter-spacing:.22em;text-transform:uppercase">Complimentary worldwide shipping · Handcrafted in Brazil</div>
 
-    <nav class="nav" aria-label="Hoofdmenu">
-      <ul>
-        <li class="is-active"><a class="nav-link" href="index.html">Home</a></li>
-        <li><a class="nav-link" href="historie.html">Historie</a></li>
-        <li class="has-sub">
-          <a class="nav-link" href="diensten.html">Diensten <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></a>
-          <div class="submenu">
-            <a href="diensten.html#autolaadkranen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>Autolaadkranen</a>
-            <a href="diensten.html#lzv"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="6" width="15" height="10"/><path d="M16 9h4l3 3v4h-7z"/><circle cx="5" cy="19" r="1.6"/><circle cx="19" cy="19" r="1.6"/></svg>LZV</a>
-            <a href="diensten.html#speciaal-transport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l4-7h10l4 7"/><path d="M3 12h18v6H3z"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg>Speciaal Transport</a>
-            <a href="diensten.html#vlakke-opleggers"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 14h20v3H2z"/><path d="M4 14V9l3-3h3l2 3h3l3 3v2"/><circle cx="6" cy="19" r="1.6"/><circle cx="18" cy="19" r="1.6"/></svg>Vlakke Opleggers</a>
-            <a href="diensten.html#kuip-diepladers"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 13l3-6h9l4 4h4v5"/><path d="M2 13h20v3H2z"/><circle cx="6" cy="19" r="1.6"/><circle cx="18" cy="19" r="1.6"/></svg>Kuip- &amp; Semi Diepladers</a>
-            <a href="diensten.html#industriele-verhuizing"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>Industriële Verhuizing</a>
-            <a href="diensten.html#bouwunits"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-7h6v7"/></svg>Bouwunits</a>
-            <a href="diensten.html#volume-transport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>Volume Transport</a>
-            <a href="diensten.html#wagenpark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 13l2-6h14l2 6"/><path d="M3 13h18v5H3z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg>Wagenpark</a>
-            <a href="diensten.html#storage-solutions"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-6 9 6v11H3z"/><path d="M9 20v-6h6v6"/></svg>Storage Solutions</a>
-          </div>
-        </li>
-        <li><a class="nav-link" href="certificeringen.html">Certificeringen</a></li>
-        <li><a class="nav-link" href="downloads.html">Downloads</a></li>
-        <li><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
+  <!-- header -->
+  <header style="position:sticky;top:0;z-index:50;background:rgba(246,241,233,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(43,39,33,.12);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:18px 44px">
+    <nav style="display:flex;gap:24px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#4A463E">
+      <span style="cursor:pointer" onClick="{{ navRings }}">Rings</span>
+      <span style="cursor:pointer" onClick="{{ navNecklaces }}">Necklaces</span>
+      <span style="cursor:pointer" onClick="{{ navEarrings }}">Earrings</span>
+      <span style="cursor:pointer" onClick="{{ navBracelets }}">Bracelets</span>
     </nav>
-
-    <div class="header-cta">
-      <a href="contact.html" class="btn btn--primary">Offerte aanvragen <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-      <button class="nav-toggle" aria-label="Menu openen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    <div style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:30px;letter-spacing:.14em;color:#2B2721;cursor:pointer;text-align:center" onClick="{{ goHome }}">IPÊ</div>
+    <div style="display:flex;gap:18px;align-items:center;justify-content:flex-end;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#4A463E">
+      <span style="cursor:pointer" onClick="{{ goAbout }}">About</span>
+      <span style="display:flex;gap:4px">
+        <sc-for list="{{ currencyOptions }}" as="c" hint-placeholder-count="3">
+          <span onClick="{{ c.onClick }}" style="{{ c.style }}">{{ c.code }}</span>
+        </sc-for>
+      </span>
+      <span style="cursor:pointer" onClick="{{ goShopAll }}">Search</span>
+      <span style="cursor:pointer" onClick="{{ goAbout }}">♡ {{ wishlistCount }}</span>
+      <span style="cursor:pointer;font-weight:500;color:#2B2721" onClick="{{ openCart }}">Bag ({{ cartCount }})</span>
     </div>
-  </div>
-</header>
+  </header>
 
-<!-- ============ MOBILE NAV ============ -->
-<div class="mobile-nav">
-  <div class="mobile-nav-backdrop"></div>
-  <div class="mobile-nav-panel">
-    <div class="mobile-nav-head">
-      <img src="assets/images/logo.png" alt="Boekweit Transport" style="height:38px">
-      <button class="mobile-nav-close" aria-label="Menu sluiten"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+  <!-- ============ HOME ============ -->
+  <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+  <main style="animation:ipeFade .4s ease">
+    <div style="position:relative;height:600px;background:url('https://images.pexels.com/photos/20858959/pexels-photo-20858959.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1600&h=900') center/cover no-repeat">
+      <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(246,241,233,.97) 0%,rgba(246,241,233,.84) 36%,rgba(246,241,233,.2) 66%,rgba(246,241,233,0) 100%)"></div>
+      <div style="position:absolute;left:56px;top:50%;transform:translateY(-50%);max-width:440px">
+        <div style="font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#6B6350;margin-bottom:18px">The New Collection</div>
+        <h1 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:66px;line-height:1.02;margin:0 0 20px;color:#2B2721">Brilliance,<br>found in nature.</h1>
+        <p style="font-size:15px;line-height:1.6;color:#544E42;margin:0 0 30px;max-width:370px">Fine gold, silver and gemstone jewellery — sourced directly from Brazil, made for every day and every occasion.</p>
+        <span style="display:inline-block;background:#2B2721;color:#F6F1E9;padding:15px 34px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;cursor:pointer" onClick="{{ goShopAll }}">Shop the collection</span>
+      </div>
     </div>
-    <ul>
-      <li><a class="nav-link" href="index.html">Home</a></li>
-      <li><a class="nav-link" href="historie.html">Historie</a></li>
-      <li class="has-sub">
-        <a class="nav-link" href="#">Diensten <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></a>
-        <div class="submenu">
-          <a href="diensten.html#autolaadkranen">Autolaadkranen</a>
-          <a href="diensten.html#lzv">LZV</a>
-          <a href="diensten.html#speciaal-transport">Speciaal Transport</a>
-          <a href="diensten.html#vlakke-opleggers">Vlakke Opleggers</a>
-          <a href="diensten.html#kuip-diepladers">Kuip- &amp; Semi Diepladers</a>
-          <a href="diensten.html#industriele-verhuizing">Industriële Verhuizing</a>
-          <a href="diensten.html#bouwunits">Bouwunits</a>
-          <a href="diensten.html#volume-transport">Volume Transport</a>
-          <a href="diensten.html#wagenpark">Wagenpark</a>
-          <a href="diensten.html#storage-solutions">Storage Solutions</a>
+
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(43,39,33,.1)">
+      <sc-for list="{{ homeCategories }}" as="cat" hint-placeholder-count="3">
+        <div style="background:#F6F1E9;padding:40px 30px;cursor:pointer" onClick="{{ cat.onClick }}">
+          <div style="height:170px;border-radius:2px;margin-bottom:18px;background:{{ cat.img }}"></div>
+          <div style="font-family:'Cormorant Garamond',serif;font-size:24px;margin-bottom:4px">{{ cat.label }}</div>
+          <div style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#7A7360">Explore →</div>
         </div>
-      </li>
-      <li><a class="nav-link" href="certificeringen.html">Certificeringen</a></li>
-      <li><a class="nav-link" href="downloads.html">Downloads</a></li>
-      <li><a class="nav-link" href="contact.html">Contact</a></li>
-    </ul>
-    <div class="mobile-nav-foot">
-      <a href="tel:+31499421419" class="btn btn--dark">+31 (0) 499 421419</a>
-      <a href="contact.html" class="btn btn--primary">Offerte aanvragen</a>
-    </div>
-  </div>
-</div>
-
-<!-- ============ HERO ============ -->
-<section class="hero">
-  <div class="hero-slide is-active"><img src="assets/images/hero-1.jpg" alt="Boekweit Transport vrachtwagen met autolaadkraan"></div>
-  <div class="hero-slide"><img src="assets/images/hero-2.jpg" alt="Boekweit Transport LZV combinatie"></div>
-  <div class="hero-slide"><img src="assets/images/hero-3.jpg" alt="Boekweit Transport speciaal transport"></div>
-  <div class="hero-slide"><img src="assets/images/hero-4.jpg" alt="Boekweit Transport op locatie"></div>
-
-  <div class="hero-content container">
-    <p class="eyebrow" style="color:#ffab3d">Sinds 1962 · Lieshout, Noord-Brabant</p>
-    <h1>Zwaar transport vraagt om een team dat het licht laat lijken.</h1>
-    <p class="lede">Autolaadkranen, LZV, speciaal transport en industriële verhuizingen — veilig, professioneel en op tijd, in Nederland, België, Duitsland en Noord-Frankrijk.</p>
-    <div class="hero-actions">
-      <a href="diensten.html" class="btn btn--primary">Bekijk onze diensten <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-      <a href="contact.html" class="btn btn--ghost">Vraag een offerte aan</a>
-    </div>
-  </div>
-
-  <div class="hero-dots">
-    <button class="is-active" aria-label="Slide 1"></button>
-    <button aria-label="Slide 2"></button>
-    <button aria-label="Slide 3"></button>
-    <button aria-label="Slide 4"></button>
-  </div>
-
-  <div class="hero-stats">
-    <div class="container">
-      <div class="hero-stat"><strong data-count="1962" data-suffix="">0</strong><span>Opgericht in</span></div>
-      <div class="hero-stat"><strong data-count="25" data-suffix="+">0</strong><span>Eigen voertuigen</span></div>
-      <div class="hero-stat"><strong data-count="4" data-suffix="">0</strong><span>Landen: NL · BE · DE · FR</span></div>
-      <div class="hero-stat"><strong data-count="100" data-suffix=" ton">0</strong><span>Max. hijsvermogen</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ TRUST STRIP ============ -->
-<div class="strip">
-  <div class="strip-track">
-    <span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>VCA gecertificeerd sinds 2008</span>
-    <span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>TCVT gecertificeerde kraanmachinisten</span>
-    <span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Safety Culture Ladder trede 3</span>
-    <span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Erkend leerbedrijf ROC &amp; STL</span>
-    <span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>VCA gecertificeerd sinds 2008</span>
-    <span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>TCVT gecertificeerde kraanmachinisten</span>
-    <span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Safety Culture Ladder trede 3</span>
-    <span class="strip-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Erkend leerbedrijf ROC &amp; STL</span>
-  </div>
-</div>
-
-<!-- ============ SERVICES ============ -->
-<section class="section">
-  <div class="container">
-    <div class="section-head center reveal">
-      <p class="eyebrow" style="justify-content:center">Wat we doen</p>
-      <h2>Diensten die overal en altijd doorgaan</h2>
-      <p>Van een enkele autolaadkraan tot complete industriële verhuizingen — onze vloot en vakmensen zijn uitgerust voor het onmogelijke.</p>
+      </sc-for>
     </div>
 
-    <div class="grid grid--4 reveal-stagger">
-      <article class="card">
-        <div class="card-media"><span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></span><img src="assets/images/service-autolaadkranen.jpg" alt="Autolaadkranen"></div>
-        <div class="card-body"><h3>Autolaadkranen</h3><p>Mobiele kranen van 20 tot 100 ton, met radiografische bediening voor moeilijk bereikbare locaties.</p><a class="card-link" href="diensten.html#autolaadkranen">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
-      </article>
-      <article class="card">
-        <div class="card-media"><span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l4-7h10l4 7"/><path d="M3 12h18v6H3z"/><circle cx="7.5" cy="18" r="1.8"/><circle cx="16.5" cy="18" r="1.8"/></svg></span><img src="assets/images/service-speciaal-transport.jpeg" alt="Speciaal Transport"></div>
-        <div class="card-body"><h3>Speciaal Transport</h3><p>50+ jaar ervaring met transport buiten de standaardnormen, met doorlopende ontheffingen in NL, BE en DE.</p><a class="card-link" href="diensten.html#speciaal-transport">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
-      </article>
-      <article class="card">
-        <div class="card-media"><span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 14h20v3H2z"/><path d="M4 14V9l3-3h3l2 3h3l3 3v2"/><circle cx="6" cy="19" r="1.6"/><circle cx="18" cy="19" r="1.6"/></svg></span><img src="assets/images/service-vlakke-opleggers.jpg" alt="Vlakke Opleggers"></div>
-        <div class="card-body"><h3>Vlakke Opleggers</h3><p>Gestuurde, uitschuifbare opleggers tot 30 meter lengte en 30 ton laadvermogen.</p><a class="card-link" href="diensten.html#vlakke-opleggers">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
-      </article>
-      <article class="card">
-        <div class="card-media"><span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 13l3-6h9l4 4h4v5"/><path d="M2 13h20v3H2z"/><circle cx="6" cy="19" r="1.6"/><circle cx="18" cy="19" r="1.6"/></svg></span><img src="assets/images/service-kuip-diepladers.jpeg" alt="Kuip- en Semi Diepladers"></div>
-        <div class="card-body"><h3>Kuip- &amp; Semi Diepladers</h3><p>Voor hoge en/of extra zware lading tot 3,75 meter hoog, met ontheffing in NL, BE en DE.</p><a class="card-link" href="diensten.html#kuip-diepladers">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
-      </article>
-      <article class="card">
-        <div class="card-media"><span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></span><img src="assets/images/service-industriele-verhuizing.jpg" alt="Industriële Verhuizing"></div>
-        <div class="card-body"><h3>Industriële Verhuizing</h3><p>Van losse machine tot complete productielijn, begeleid door gecertificeerde kraanmachinisten.</p><a class="card-link" href="diensten.html#industriele-verhuizing">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
-      </article>
-      <article class="card">
-        <div class="card-media"><span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-7h6v7"/></svg></span><img src="assets/images/service-bouwunits.jpg" alt="Bouwunits"></div>
-        <div class="card-body"><h3>Bouwunits</h3><p>Dagelijks transport en plaatsing van containers, bouwketen, woon- en kantoorunits.</p><a class="card-link" href="diensten.html#bouwunits">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
-      </article>
-      <article class="card">
-        <div class="card-media"><span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg></span><img src="assets/images/service-volume-transport.jpg" alt="Volume Transport"></div>
-        <div class="card-body"><h3>Volume Transport</h3><p>Brede diversiteit aan volume transport: van steigermateriaal tot PVC buizen en pallets.</p><a class="card-link" href="diensten.html#volume-transport">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
-      </article>
-      <article class="card">
-        <div class="card-media"><span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 13l2-6h14l2 6"/><path d="M3 13h18v5H3z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg></span><img src="assets/images/service-wagenpark.jpg" alt="Wagenpark"></div>
-        <div class="card-body"><h3>Wagenpark</h3><p>25 eigen, goed onderhouden voertuigen en getrainde chauffeurs, klaar voor elke klus.</p><a class="card-link" href="diensten.html#wagenpark">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
-      </article>
-    </div>
-
-    <div class="services-foot reveal">
-      <a href="diensten.html" class="btn btn--dark">Alle 10 diensten bekijken <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
-    </div>
-  </div>
-</section>
-
-<!-- ============ ABOUT / HISTORIE TEASER ============ -->
-<section class="section section--muted">
-  <div class="container split">
-    <div class="split-media reveal">
-      <img src="assets/images/gallery-1.jpg" alt="Boekweit Transport op locatie">
-      <div class="float-card">
-        <strong data-count="60" data-suffix="+">0</strong>
-        <span>Jaar ervaring in zwaar &amp; speciaal transport</span>
+    <div style="padding:64px 44px 56px">
+      <div style="text-align:center;margin-bottom:40px">
+        <div style="font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#8A8270;margin-bottom:12px">From €89 to one of a kind</div>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:42px;margin:0">New Arrivals</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:26px;max-width:1180px;margin:0 auto">
+        <sc-for list="{{ featured }}" as="p" hint-placeholder-count="4">
+          <div>
+            <div onClick="{{ p.onSelect }}" style="position:relative;aspect-ratio:4/5;border-radius:2px;margin-bottom:14px;cursor:pointer;background:{{ p.img }}">
+              <sc-if value="{{ p.badge }}" hint-placeholder-val="{{ true }}"><div style="position:absolute;top:12px;left:12px;background:var(--accent,#454B3A);color:#EFE9DC;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;padding:4px 9px">New</div></sc-if>
+              <div onClick="{{ p.onWish }}" style="position:absolute;top:10px;right:10px;width:32px;height:32px;border-radius:50%;background:rgba(246,241,233,.85);display:flex;align-items:center;justify-content:center;font-size:15px;cursor:pointer;color:{{ p.heart }}">♥</div>
+            </div>
+            <div onClick="{{ p.onSelect }}" style="font-family:'Cormorant Garamond',serif;font-size:20px;cursor:pointer">{{ p.name }}</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-top:5px">
+              <span style="font-size:13px;color:#6B6454">{{ p.priceFmt }}</span>
+              <span onClick="{{ p.onAdd }}" style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;border-bottom:1px solid #2B2721;cursor:pointer;padding-bottom:2px">Add</span>
+            </div>
+          </div>
+        </sc-for>
       </div>
     </div>
-    <div class="split-body reveal">
-      <p class="eyebrow">Ons verhaal</p>
-      <h2>Van één Bedford-vrachtwagen tot specialist in heel Zuidoost-Brabant</h2>
-      <p>In 1962 begon Jan Boekweit met één vrachtwagen van het Engelse merk Bedford. Onder leiding van zijn twee zonen en dochter groeide het bedrijf uit tot een gespecialiseerde speler in transport met autolaadkranen — inmiddels actief in Nederland, België, Duitsland en Noord-Frankrijk.</p>
-      <ul class="checklist">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg> 25 goed uitgeruste voertuigen en getrainde chauffeurs</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg> VCA-, TCVT- en ISO-gecertificeerd</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg> Doorlopende ontheffingen tot 3,50m breedte</li>
-      </ul>
-      <div class="quote">Safe, Professional and on schedule!</div>
-      <div style="margin-top:30px"><a href="historie.html" class="btn btn--primary">Ontdek onze historie <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
-    </div>
-  </div>
-</section>
 
-<!-- ============ GALLERY MARQUEE ============ -->
-<section class="section--tight">
-  <div class="section-head center container reveal">
-    <p class="eyebrow" style="justify-content:center">In beeld</p>
-    <h2>Ons wagenpark in actie</h2>
-  </div>
-  <div class="gallery-track-wrap">
-    <div class="gallery-track">
-      <img src="assets/images/gallery-1.jpg" alt="Boekweit Transport">
-      <img src="assets/images/gallery-2.jpg" alt="Boekweit Transport">
-      <img src="assets/images/gallery-3.jpg" alt="Boekweit Transport">
-      <img src="assets/images/gallery-4.jpg" alt="Boekweit Transport">
-      <img src="assets/images/gallery-5.jpg" alt="Boekweit Transport">
-      <img src="assets/images/service-lzv.jpg" alt="Boekweit Transport">
-      <img src="assets/images/gallery-1.jpg" alt="Boekweit Transport">
-      <img src="assets/images/gallery-2.jpg" alt="Boekweit Transport">
-      <img src="assets/images/gallery-3.jpg" alt="Boekweit Transport">
-      <img src="assets/images/gallery-4.jpg" alt="Boekweit Transport">
-      <img src="assets/images/gallery-5.jpg" alt="Boekweit Transport">
-      <img src="assets/images/service-lzv.jpg" alt="Boekweit Transport">
+    <div style="display:grid;grid-template-columns:1fr 1fr;align-items:center;background:var(--accent,#454B3A);color:#EFE9DC">
+      <div style="height:340px;background:url('https://images.pexels.com/photos/6098251/pexels-photo-6098251.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=900&h=680') center/cover no-repeat"></div>
+      <div style="padding:56px 60px">
+        <div style="font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#D6D8C8;margin-bottom:16px">Our origin</div>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:36px;line-height:1.1;margin:0 0 16px">Straight from the source in Brazil</h3>
+        <p style="font-size:14px;line-height:1.7;color:#E6E7DA;margin:0 0 24px">A family business — one of us in the Netherlands, one at the source in Brazil. No middlemen, just honest craft and fair prices.</p>
+        <span style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;border-bottom:1px solid #D6D8C8;padding-bottom:4px;cursor:pointer" onClick="{{ goAbout }}">Read our story</span>
+      </div>
     </div>
-  </div>
-</section>
 
-<!-- ============ CTA BANNER ============ -->
-<section class="section" style="padding-top:0">
-  <div class="container">
-    <div class="cta-banner reveal">
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(43,39,33,.1)">
+      <div style="background:#F6F1E9;padding:38px;text-align:center"><div style="font-family:'Cormorant Garamond',serif;font-size:21px;margin-bottom:6px">Worldwide shipping</div><div style="font-size:12.5px;color:#7A7360">Insured, on us, everywhere</div></div>
+      <div style="background:#F6F1E9;padding:38px;text-align:center"><div style="font-family:'Cormorant Garamond',serif;font-size:21px;margin-bottom:6px">Lifetime care</div><div style="font-size:12.5px;color:#7A7360">Free cleaning & repairs</div></div>
+      <div style="background:#F6F1E9;padding:38px;text-align:center"><div style="font-family:'Cormorant Garamond',serif;font-size:21px;margin-bottom:6px">Ethically sourced</div><div style="font-size:12.5px;color:#7A7360">Traceable to the mine</div></div>
+    </div>
+  </main>
+  </sc-if>
+
+  <!-- ============ SHOP ============ -->
+  <sc-if value="{{ isShop }}" hint-placeholder-val="{{ true }}">
+  <main style="padding:48px 44px 72px;animation:ipeFade .4s ease">
+    <div style="text-align:center;margin-bottom:40px">
+      <div style="font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#8A8270;margin-bottom:12px">Shop</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:44px;margin:0 0 8px">{{ shopTitle }}</h1>
+      <div style="font-size:12.5px;color:#7A7360;letter-spacing:.04em">{{ resultCount }} pieces</div>
+    </div>
+    <div style="display:grid;grid-template-columns:220px 1fr;gap:52px;max-width:1200px;margin:0 auto">
+      <aside style="align-self:start;position:sticky;top:100px">
+        <sc-for list="{{ filterGroups }}" as="g" hint-placeholder-count="4">
+          <div style="margin-bottom:30px">
+            <div style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#8A8270;margin-bottom:14px;border-bottom:1px solid rgba(43,39,33,.14);padding-bottom:10px">{{ g.title }}</div>
+            <div style="display:flex;flex-direction:column;gap:3px">
+              <sc-for list="{{ g.options }}" as="o" hint-placeholder-count="5">
+                <span onClick="{{ o.onClick }}" style="{{ o.style }}">{{ o.label }}</span>
+              </sc-for>
+            </div>
+          </div>
+        </sc-for>
+        <span onClick="{{ clearFilters }}" style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#6B6454;border-bottom:1px solid #6B6454;cursor:pointer;padding-bottom:2px">Clear all</span>
+      </aside>
       <div>
-        <h2>Klaar voor een lading die anders vraagt om maatwerk?</h2>
-        <p>Neem vrijblijvend contact op — binnen één werkdag krijgt u een reactie van ons team.</p>
+        <div style="display:flex;justify-content:flex-end;margin-bottom:24px">
+          <select value="{{ sort }}" onChange="{{ onSort }}" style="font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#2B2721;background:transparent;border:1px solid rgba(43,39,33,.22);padding:10px 14px;border-radius:2px;cursor:pointer">
+            <option value="new">Sort · Newest</option>
+            <option value="priceLow">Price · Low to High</option>
+            <option value="priceHigh">Price · High to Low</option>
+          </select>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px 26px">
+          <sc-for list="{{ visibleProducts }}" as="p" hint-placeholder-count="9">
+            <div>
+              <div onClick="{{ p.onSelect }}" style="position:relative;aspect-ratio:4/5;border-radius:2px;margin-bottom:14px;cursor:pointer;background:{{ p.img }}">
+                <sc-if value="{{ p.badge }}" hint-placeholder-val="{{ true }}"><div style="position:absolute;top:12px;left:12px;background:var(--accent,#454B3A);color:#EFE9DC;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;padding:4px 9px">New</div></sc-if>
+                <div onClick="{{ p.onWish }}" style="position:absolute;top:10px;right:10px;width:32px;height:32px;border-radius:50%;background:rgba(246,241,233,.85);display:flex;align-items:center;justify-content:center;font-size:15px;cursor:pointer;color:{{ p.heart }}">♥</div>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:baseline">
+                <div onClick="{{ p.onSelect }}" style="font-family:'Cormorant Garamond',serif;font-size:20px;cursor:pointer">{{ p.name }}</div>
+              </div>
+              <div style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#9A9080;margin-top:3px">{{ p.metal }}</div>
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-top:7px">
+                <span style="font-size:13px;color:#6B6454">{{ p.priceFmt }}</span>
+                <span onClick="{{ p.onAdd }}" style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;border-bottom:1px solid #2B2721;cursor:pointer;padding-bottom:2px">Add</span>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+        <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}">
+          <div style="text-align:center;padding:60px 0;color:#8A8270;font-family:'Cormorant Garamond',serif;font-size:22px">No pieces match these filters.</div>
+        </sc-if>
       </div>
-      <div class="cta-actions">
-        <a href="contact.html" class="btn btn--primary">Offerte aanvragen</a>
-        <a href="tel:+31499421419" class="btn btn--ghost">Bel +31 (0) 499 421419</a>
+    </div>
+  </main>
+  </sc-if>
+
+  <!-- ============ PRODUCT DETAIL ============ -->
+  <sc-if value="{{ isProduct }}" hint-placeholder-val="{{ false }}">
+  <main style="padding:28px 44px 72px;animation:ipeFade .4s ease">
+    <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#9A9080;margin-bottom:28px">
+      <span style="cursor:pointer" onClick="{{ goHome }}">Home</span> / <span style="cursor:pointer" onClick="{{ goShopAll }}">Shop</span> / <span style="color:#4A463E">{{ pd.name }}</span>
+    </div>
+    <div style="display:grid;grid-template-columns:1.1fr .9fr;gap:56px;max-width:1200px;margin:0 auto">
+      <div>
+        <div style="aspect-ratio:1/1;border-radius:2px;margin-bottom:16px;background:{{ pd.mainImg }}"></div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px">
+          <sc-for list="{{ pd.thumbs }}" as="t" hint-placeholder-count="4">
+            <div onClick="{{ t.onClick }}" style="aspect-ratio:1/1;border-radius:2px;cursor:pointer;background:{{ t.img }};border:{{ t.border }}"></div>
+          </sc-for>
+        </div>
+      </div>
+      <div style="align-self:start">
+        <div style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#9A9080;margin-bottom:12px">{{ pd.cat }}</div>
+        <h1 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:40px;line-height:1.05;margin:0 0 14px">{{ pd.name }}</h1>
+        <div style="font-size:20px;color:#4A463E;margin-bottom:22px">{{ pd.priceFmt }}</div>
+        <p style="font-size:14px;line-height:1.7;color:#544E42;margin:0 0 30px;max-width:400px">{{ pd.desc }}</p>
+
+        <div style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#8A8270;margin-bottom:12px">Metal · {{ pd.selectedMetal }}</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px">
+          <sc-for list="{{ pd.metalOptions }}" as="m" hint-placeholder-count="3">
+            <span onClick="{{ m.onClick }}" style="{{ m.style }}">{{ m.label }}</span>
+          </sc-for>
+        </div>
+
+        <sc-if value="{{ pd.isRing }}" hint-placeholder-val="{{ true }}">
+          <div style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#8A8270;margin-bottom:12px">Size (EU) · <span style="cursor:pointer;border-bottom:1px solid #8A8270">Size guide</span></div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px">
+            <sc-for list="{{ pd.sizes }}" as="s" hint-placeholder-count="6">
+              <span onClick="{{ s.onClick }}" style="{{ s.style }}">{{ s.label }}</span>
+            </sc-for>
+          </div>
+        </sc-if>
+
+        <div style="display:flex;gap:14px;align-items:stretch;margin-bottom:16px">
+          <div style="display:flex;align-items:center;border:1px solid rgba(43,39,33,.22);border-radius:2px">
+            <span onClick="{{ pd.decQty }}" style="padding:0 16px;font-size:18px;cursor:pointer;color:#4A463E;user-select:none">−</span>
+            <span style="min-width:34px;text-align:center;font-size:14px">{{ pd.qty }}</span>
+            <span onClick="{{ pd.incQty }}" style="padding:0 16px;font-size:18px;cursor:pointer;color:#4A463E;user-select:none">+</span>
+          </div>
+          <span onClick="{{ pd.onAdd }}" style="flex:1;background:#2B2721;color:#F6F1E9;padding:16px 24px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;text-align:center;cursor:pointer">Add to Bag — {{ pd.priceFmt }}</span>
+        </div>
+        <div style="text-align:center;margin-bottom:34px">
+          <span onClick="{{ pd.onWish }}" style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:{{ pd.heart }};cursor:pointer">♥ {{ pd.wishLabel }}</span>
+        </div>
+
+        <sc-for list="{{ pd.accordions }}" as="a" hint-placeholder-count="2">
+          <div style="border-top:1px solid rgba(43,39,33,.14)">
+            <div onClick="{{ a.onToggle }}" style="display:flex;justify-content:space-between;align-items:center;padding:18px 0;cursor:pointer">
+              <span style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#4A463E">{{ a.title }}</span>
+              <span style="font-size:18px;color:#8A8270">{{ a.icon }}</span>
+            </div>
+            <sc-if value="{{ a.open }}" hint-placeholder-val="{{ false }}">
+              <div style="font-size:13.5px;line-height:1.7;color:#6B6454;padding:0 0 20px;max-width:420px">{{ a.body }}</div>
+            </sc-if>
+          </div>
+        </sc-for>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- ============ FOOTER ============ -->
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div class="footer-brand">
-      <img src="assets/images/logo.png" alt="Boekweit Transport">
-      <p>Sinds 1962 dé specialist in autolaadkranen, LZV en speciaal transport in Zuidoost-Brabant en daarbuiten.</p>
-      <div class="footer-social">
-        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></a>
+    <div style="max-width:1200px;margin:80px auto 0">
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:30px;text-align:center;margin:0 0 34px">You may also like</h2>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:26px">
+        <sc-for list="{{ pd.related }}" as="p" hint-placeholder-count="4">
+          <div>
+            <div onClick="{{ p.onSelect }}" style="aspect-ratio:4/5;border-radius:2px;margin-bottom:14px;cursor:pointer;background:{{ p.img }}"></div>
+            <div onClick="{{ p.onSelect }}" style="font-family:'Cormorant Garamond',serif;font-size:19px;cursor:pointer">{{ p.name }}</div>
+            <div style="font-size:13px;color:#6B6454;margin-top:4px">{{ p.priceFmt }}</div>
+          </div>
+        </sc-for>
       </div>
     </div>
-    <div class="footer-col">
-      <h4>Navigatie</h4>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="historie.html">Historie</a></li>
-        <li><a href="certificeringen.html">Certificeringen &amp; Ontheffingen</a></li>
-        <li><a href="downloads.html">Downloads</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Diensten</h4>
-      <ul>
-        <li><a href="diensten.html#autolaadkranen">Autolaadkranen</a></li>
-        <li><a href="diensten.html#lzv">LZV</a></li>
-        <li><a href="diensten.html#speciaal-transport">Speciaal Transport</a></li>
-        <li><a href="diensten.html#industriele-verhuizing">Industriële Verhuizing</a></li>
-        <li><a href="diensten.html#storage-solutions">Storage Solutions</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Contact</h4>
-      <ul class="footer-contact">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Papenhoef 3 — 5737 BS Lieshout</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+31499421419">+31 (0) 499 421419</a></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg> <a href="mailto:info@boekweittransport.nl">info@boekweittransport.nl</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="container footer-bottom">
-    <span>© 2026 Boekweit Transport B.V. Alle rechten voorbehouden.</span>
-    <span>KvK Zuidoost-Brabant · <a href="#">Privacybeleid</a></span>
-  </div>
-</footer>
+  </main>
+  </sc-if>
 
-<button class="to-top" aria-label="Naar boven"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+  <!-- ============ ABOUT ============ -->
+  <sc-if value="{{ isAbout }}" hint-placeholder-val="{{ false }}">
+  <main style="animation:ipeFade .4s ease">
+    <div style="text-align:center;padding:80px 44px 60px;max-width:720px;margin:0 auto">
+      <div style="font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#8A8270;margin-bottom:18px">Our story</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:52px;line-height:1.05;margin:0 0 22px">A family, two countries,<br>one love of fine stones.</h1>
+      <p style="font-size:16px;line-height:1.8;color:#544E42;margin:0">Ipê began at a kitchen table across two continents. We are family: one of us in the Netherlands, one at the source in Brazil. Together we bring the country's gold, silver and gemstones straight to you — with nothing lost, and no one marked up, in between.</p>
+    </div>
 
-<div class="cookie-banner">
-  <p>We gebruiken cookies om ervoor te zorgen dat onze site zo soepel mogelijk draait. Ga je akkoord?</p>
-  <div class="cookie-actions">
-    <a href="#" class="btn btn--sm btn--dark">Privacybeleid</a>
-    <button class="btn btn--sm btn--primary" data-accept>Accepteren</button>
-  </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;background:rgba(43,39,33,.1);max-width:1100px;margin:0 auto 8px">
+      <div style="background:#F6F1E9;padding:44px">
+        <div style="aspect-ratio:4/3;border-radius:2px;margin-bottom:22px;background:url('https://images.pexels.com/photos/9509032/pexels-photo-9509032.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=640&h=480') center/cover no-repeat"></div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:26px;margin-bottom:4px">Sofia · Amsterdam</div>
+        <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#9A9080;margin-bottom:14px">Co-founder · Curation & Care</div>
+        <p style="font-size:14px;line-height:1.7;color:#6B6454;margin:0">From the Netherlands, Sofia curates each collection and looks after every order — from gift wrapping to lifetime repairs — so the whole world can wear Brazil.</p>
+      </div>
+      <div style="background:#F6F1E9;padding:44px">
+        <div style="aspect-ratio:4/3;border-radius:2px;margin-bottom:22px;background:url('https://images.pexels.com/photos/15351782/pexels-photo-15351782.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=640&h=480') center/cover no-repeat"></div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:26px;margin-bottom:4px">Mateus · Minas Gerais</div>
+        <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#9A9080;margin-bottom:14px">Co-founder · Sourcing & Craft</div>
+        <p style="font-size:14px;line-height:1.7;color:#6B6454;margin:0">In Brazil, Mateus works hand-in-hand with local miners and goldsmiths, choosing every stone himself. What he sends north is only what he'd keep for family.</p>
+      </div>
+    </div>
+
+    <div style="background:var(--accent,#454B3A);color:#EFE9DC;padding:64px 44px;margin-top:40px">
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:40px;max-width:1000px;margin:0 auto">
+        <div><div style="font-family:'Cormorant Garamond',serif;font-size:26px;margin-bottom:10px">Direct sourcing</div><p style="font-size:13.5px;line-height:1.7;color:#E0E1D3;margin:0">Straight from Brazilian mines and workshops to you — no distributors, no resellers.</p></div>
+        <div><div style="font-family:'Cormorant Garamond',serif;font-size:26px;margin-bottom:10px">Fair prices</div><p style="font-size:13.5px;line-height:1.7;color:#E0E1D3;margin:0">Cutting out the middle means honest pricing, from an €89 silver band to rare stones.</p></div>
+        <div><div style="font-family:'Cormorant Garamond',serif;font-size:26px;margin-bottom:10px">Real craftsmanship</div><p style="font-size:13.5px;line-height:1.7;color:#E0E1D3;margin:0">Made by hand by people we know by name, and built to be worn for a lifetime.</p></div>
+      </div>
+    </div>
+
+    <div style="text-align:center;padding:70px 44px">
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:34px;margin:0 0 24px">See what we've brought back</h2>
+      <span style="display:inline-block;background:#2B2721;color:#F6F1E9;padding:15px 40px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;cursor:pointer" onClick="{{ goShopAll }}">Shop the collection</span>
+    </div>
+  </main>
+  </sc-if>
+
+  <!-- footer -->
+  <footer style="background:#2B2721;color:#D8D2C4;padding:56px 44px 30px">
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:34px;margin-bottom:42px;max-width:1200px;margin-left:auto;margin-right:auto">
+      <div style="max-width:280px"><div style="font-family:'Cormorant Garamond',serif;font-size:30px;letter-spacing:.14em;margin-bottom:14px;cursor:pointer" onClick="{{ goHome }}">IPÊ</div><div style="font-size:12.5px;line-height:1.7;color:#9C978A">Fine jewellery from Brazil, delivered worldwide from the Netherlands.</div></div>
+      <div style="display:flex;gap:60px;font-size:12.5px;line-height:2.1;color:#B4AF9F">
+        <div><div style="color:#7C7768;text-transform:uppercase;letter-spacing:.14em;font-size:10.5px;margin-bottom:12px">Shop</div>
+          <div style="cursor:pointer" onClick="{{ navRings }}">Rings</div>
+          <div style="cursor:pointer" onClick="{{ navNecklaces }}">Necklaces</div>
+          <div style="cursor:pointer" onClick="{{ navEarrings }}">Earrings</div>
+          <div style="cursor:pointer" onClick="{{ navBracelets }}">Bracelets</div>
+        </div>
+        <div><div style="color:#7C7768;text-transform:uppercase;letter-spacing:.14em;font-size:10.5px;margin-bottom:12px">Company</div>
+          <div style="cursor:pointer" onClick="{{ goAbout }}">About</div>
+          <div>Sustainability</div><div>Contact</div><div>Journal</div>
+        </div>
+        <div><div style="color:#7C7768;text-transform:uppercase;letter-spacing:.14em;font-size:10.5px;margin-bottom:12px">Care</div>
+          Shipping<br>Returns<br>Warranty<br>Size guide
+        </div>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(255,255,255,.1);padding-top:20px;font-size:11px;color:#7C7768;letter-spacing:.08em;max-width:1200px;margin:0 auto">© 2026 Ipê · Amsterdam, The Netherlands</div>
+  </footer>
+
+  <!-- ============ CART DRAWER ============ -->
+  <sc-if value="{{ cartOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeCart }}" style="position:fixed;inset:0;background:rgba(43,39,33,.4);z-index:90;animation:ipeFade .25s ease"></div>
+    <div style="position:fixed;top:0;right:0;bottom:0;width:400px;max-width:92vw;background:#F6F1E9;z-index:91;display:flex;flex-direction:column;box-shadow:-10px 0 40px rgba(0,0,0,.18);animation:ipeSlideIn .3s cubic-bezier(.4,0,.2,1)">
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:22px 26px;border-bottom:1px solid rgba(43,39,33,.14)">
+        <span style="font-family:'Cormorant Garamond',serif;font-size:24px">Your Bag ({{ cartCount }})</span>
+        <span onClick="{{ closeCart }}" style="font-size:22px;cursor:pointer;color:#6B6454">✕</span>
+      </div>
+      <div style="flex:1;overflow-y:auto;padding:8px 26px">
+        <sc-if value="{{ cartEmpty }}" hint-placeholder-val="{{ true }}">
+          <div style="text-align:center;padding:70px 0;color:#8A8270">
+            <div style="font-family:'Cormorant Garamond',serif;font-size:22px;margin-bottom:16px">Your bag is empty</div>
+            <span onClick="{{ goShopAll }}" style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;border-bottom:1px solid #6B6454;cursor:pointer;padding-bottom:3px;color:#4A463E">Start shopping</span>
+          </div>
+        </sc-if>
+        <sc-for list="{{ cartLines }}" as="l" hint-placeholder-count="2">
+          <div style="display:flex;gap:16px;padding:20px 0;border-bottom:1px solid rgba(43,39,33,.1)">
+            <div style="width:74px;height:92px;border-radius:2px;flex:none;background:{{ l.img }}"></div>
+            <div style="flex:1">
+              <div style="display:flex;justify-content:space-between;gap:8px">
+                <span style="font-family:'Cormorant Garamond',serif;font-size:18px;line-height:1.15">{{ l.name }}</span>
+                <span onClick="{{ l.onRemove }}" style="font-size:14px;color:#9A9080;cursor:pointer">✕</span>
+              </div>
+              <div style="font-size:11px;letter-spacing:.06em;color:#9A9080;text-transform:uppercase;margin:4px 0 10px">{{ l.meta }}</div>
+              <div style="display:flex;justify-content:space-between;align-items:center">
+                <div style="display:flex;align-items:center;border:1px solid rgba(43,39,33,.22);border-radius:2px">
+                  <span onClick="{{ l.onDec }}" style="padding:2px 11px;cursor:pointer;color:#4A463E">−</span>
+                  <span style="min-width:24px;text-align:center;font-size:13px">{{ l.qty }}</span>
+                  <span onClick="{{ l.onInc }}" style="padding:2px 11px;cursor:pointer;color:#4A463E">+</span>
+                </div>
+                <span style="font-size:13px;color:#4A463E">{{ l.priceFmt }}</span>
+              </div>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+      <sc-if value="{{ hasCart }}" hint-placeholder-val="{{ false }}">
+        <div style="padding:22px 26px;border-top:1px solid rgba(43,39,33,.14)">
+          <div style="display:flex;justify-content:space-between;margin-bottom:6px;font-size:14px"><span>Subtotal</span><span style="color:#2B2721">{{ subtotalFmt }}</span></div>
+          <div style="font-size:11.5px;color:#8A8270;margin-bottom:18px">Shipping & duties calculated at checkout · worldwide, on us.</div>
+          <div style="background:#2B2721;color:#F6F1E9;padding:16px;text-align:center;font-size:12px;letter-spacing:.18em;text-transform:uppercase;cursor:pointer">Checkout</div>
+        </div>
+      </sc-if>
+    </div>
+  </sc-if>
+
 </div>
 
-<script src="js/main.js"></script>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1280,&quot;height&quot;:880},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#3A5A54&quot;,&quot;options&quot;:[&quot;#454B3A&quot;,&quot;#6B5B3E&quot;,&quot;#7A4A3A&quot;,&quot;#3A5A54&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Theme&quot;},&quot;currencyDefault&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;EUR&quot;,&quot;options&quot;:[&quot;EUR&quot;,&quot;USD&quot;,&quot;GBP&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Theme&quot;},&quot;showNewBadges&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Theme&quot;}}">
+class Component extends DCLogic {
+  constructor(props){
+    super(props);
+    this.currencies = { EUR:{sym:'\u20ac',rate:1}, USD:{sym:'$',rate:1.08}, GBP:{sym:'\u00a3',rate:0.85} };
+    this.products = [
+      {id:'silver-wave',name:'Silver Wave Ring',cat:'Rings',metal:'Silver',price:89,occasion:'Everyday',isNew:true,c1:'#eceae4',c2:'#c3bfb6',desc:'A fluid sterling band with a hand-polished ripple, made to layer or wear alone.',materials:'925 sterling silver, rhodium finish. Nickel-free.',options:['Sterling Silver','Gold Vermeil']},
+      {id:'gold-signet',name:'Gold Signet Ring',cat:'Rings',metal:'Gold',price:340,occasion:'Everyday',isNew:false,c1:'#f0e6cb',c2:'#d8b45f',desc:'A modern take on the classic signet, with a smooth face ready for engraving.',materials:'18k recycled yellow gold, solid.',options:['18k Yellow Gold','White Gold','Rose Gold']},
+      {id:'imperial-topaz',name:'Imperial Topaz Ring',cat:'Rings',metal:'Gemstone',price:1240,occasion:'Gifting',isNew:false,c1:'#f0d9c2',c2:'#c98a63',desc:'A rare Brazilian imperial topaz, warm and golden, in a slim gold setting.',materials:'Natural imperial topaz, 18k yellow gold.',options:['Yellow Gold Band','White Gold Band']},
+      {id:'emerald-solitaire',name:'Emerald Solitaire',cat:'Rings',metal:'Gemstone',price:3900,occasion:'Bridal',isNew:false,c1:'#d3e6d6',c2:'#4f8f6d',desc:'A vivid Brazilian emerald, claw-set to catch the light from every angle.',materials:'Natural emerald, 18k white gold.',options:['White Gold Band','Yellow Gold Band']},
+      {id:'amazonia-necklace',name:'Am\u00e1zonia Gold Necklace',cat:'Necklaces',metal:'Gold',price:620,occasion:'Gifting',isNew:true,c1:'#f2e8cd',c2:'#d3a955',desc:'A sculptural pendant inspired by smooth river stones, on a fine chain.',materials:'18k gold vermeil over sterling silver.',options:['Gold Vermeil','Solid 18k Gold']},
+      {id:'silver-chain',name:'Silver Chain Necklace',cat:'Necklaces',metal:'Silver',price:145,occasion:'Everyday',isNew:false,c1:'#ecebe6',c2:'#bfbcb3',desc:'An everyday rope chain with a reassuring weight and a soft shine.',materials:'925 sterling silver.',options:['Sterling Silver','Gold Vermeil']},
+      {id:'aquamarine-pendant',name:'Aquamarine Pendant',cat:'Necklaces',metal:'Gemstone',price:480,occasion:'Gifting',isNew:false,c1:'#d6e8ec',c2:'#7db0bd',desc:'A pale, clear Brazilian aquamarine suspended on a fine gold chain.',materials:'Natural aquamarine, 14k gold.',options:['Yellow Gold','White Gold']},
+      {id:'gold-hoops',name:'Gold Hoop Earrings',cat:'Earrings',metal:'Gold',price:275,occasion:'Everyday',isNew:true,c1:'#f0e6cb',c2:'#d8b45f',desc:'Featherlight hoops with a seamless finish \u2014 desk to dinner, every day.',materials:'18k gold vermeil.',options:['Gold Vermeil','Solid 18k Gold']},
+      {id:'silver-drops',name:'Silver Drop Earrings',cat:'Earrings',metal:'Silver',price:110,occasion:'Everyday',isNew:false,c1:'#ecebe6',c2:'#c3bfb6',desc:'Softly faceted drops that move and catch the light as you do.',materials:'925 sterling silver.',options:['Sterling Silver','Gold Vermeil']},
+      {id:'tourmaline-studs',name:'Tourmaline Studs',cat:'Earrings',metal:'Gemstone',price:890,occasion:'Gifting',isNew:false,c1:'#e7d3d7',c2:'#b57a86',desc:'Rose-hued Brazilian tourmalines set in a timeless, wearable stud.',materials:'Natural tourmaline, 18k gold.',options:['Yellow Gold','White Gold']},
+      {id:'gold-cuff',name:'Gold Cuff Bracelet',cat:'Bracelets',metal:'Gold',price:540,occasion:'Everyday',isNew:false,c1:'#f2e8cd',c2:'#d3a955',desc:'A smooth open cuff with a clean architectural line that suits any wrist.',materials:'18k gold vermeil over sterling silver.',options:['Gold Vermeil','Solid 18k Gold']},
+      {id:'amethyst-tennis',name:'Amethyst Tennis Bracelet',cat:'Bracelets',metal:'Gemstone',price:2100,occasion:'Bridal',isNew:true,c1:'#e2d6ec',c2:'#8f6fb0',desc:'A flexible line of graduated Brazilian amethysts, cool and luminous.',materials:'Natural amethyst, 18k white gold.',options:['White Gold','Yellow Gold']},
+    ];
+    const pidMap={ 'silver-wave':115567, 'gold-signet':1616096, 'imperial-topaz':27295182, 'emerald-solitaire':2735981, 'amazonia-necklace':13325931, 'silver-chain':29228980, 'aquamarine-pendant':7407595, 'gold-hoops':20858959, 'silver-drops':9838851, 'tourmaline-studs':32382386, 'gold-cuff':8184263, 'amethyst-tennis':2666980 };
+    this.products.forEach((p)=>{ p.pid=pidMap[p.id]; });
+    this.sizes = ['48','50','52','54','56','58'];
+    this.state = {
+      page:'home', productId:null, cart:[], wishlist:[],
+      currency: (this.currencies[props.currencyDefault]?props.currencyDefault:'EUR'),
+      cartOpen:false,
+      fCategory:'All', fMetal:'All', fPrice:'All', fOccasion:'All', sort:'new',
+      pdImage:0, pdMetal:null, pdSize:null, pdQty:1, accInfo:true, accShip:false,
+    };
+  }
+
+  byId(id){ return this.products.find(p=>p.id===id); }
+  fmt(eur){ const c=this.currencies[this.state.currency]; return c.sym + Math.round(eur*c.rate).toLocaleString('en-US'); }
+  pex(id,w,h){ return 'url("https://images.pexels.com/photos/'+id+'/pexels-photo-'+id+'.jpeg?auto=compress&cs=tinysrgb&fit=crop&w='+w+'&h='+h+'") center/cover no-repeat'; }
+  img(p){ return this.pex(p.pid,640,800); }
+  gallery(p){ return [this.pex(p.pid,900,900), this.pex(8184263,900,900), this.pex(20858959,900,900), this.pex(9509032,900,900)]; }
+  nav(patch){ this.setState(patch, ()=>{ try{window.scrollTo({top:0,behavior:'instant'});}catch(e){window.scrollTo(0,0);} }); }
+
+  openProduct(id){ const p=this.byId(id); this.nav({page:'product', productId:id, pdImage:0, pdMetal:p.options[0], pdSize:(p.cat==='Rings'?'54':null), pdQty:1, accInfo:true, accShip:false}); }
+  toggleWish(id){ this.setState(s=>({wishlist: s.wishlist.includes(id)? s.wishlist.filter(x=>x!==id): [...s.wishlist,id]})); }
+  addToCart(id,size,metal,qty){
+    const key=id+'|'+(size||'')+'|'+(metal||'');
+    this.setState(s=>{ const cart=[...s.cart]; const i=cart.findIndex(l=>(l.id+'|'+(l.size||'')+'|'+(l.metal||''))===key);
+      if(i>=0) cart[i]={...cart[i],qty:cart[i].qty+qty}; else cart.push({id,size,metal,qty});
+      return {cart, cartOpen:true}; });
+  }
+  quickAdd(p){ this.addToCart(p.id, p.cat==='Rings'?'54':null, p.options[0], 1); }
+  changeLine(i,d){ this.setState(s=>{ const cart=[...s.cart]; const q=cart[i].qty+d; if(q<=0){cart.splice(i,1);} else {cart[i]={...cart[i],qty:q};} return {cart}; }); }
+  removeLine(i){ this.setState(s=>{ const cart=[...s.cart]; cart.splice(i,1); return {cart}; }); }
+
+  card(p){ return {
+    name:p.name, metal:p.metal, priceFmt:this.fmt(p.price), img:this.img(p),
+    badge: (this.props.showNewBadges!==false) && p.isNew,
+    heart: this.state.wishlist.includes(p.id)?'#B5673F':'rgba(43,39,33,.4)',
+    onSelect:()=>this.openProduct(p.id),
+    onAdd:(e)=>{ if(e&&e.stopPropagation)e.stopPropagation(); this.quickAdd(p); },
+    onWish:(e)=>{ if(e&&e.stopPropagation)e.stopPropagation(); this.toggleWish(p.id); },
+  }; }
+
+  chip(active){ return 'padding:8px 14px;font-size:12px;letter-spacing:.04em;border-radius:2px;cursor:pointer;text-align:left;border:1px solid '+(active?'#2B2721':'transparent')+';background:'+(active?'#2B2721':'transparent')+';color:'+(active?'#F6F1E9':'#5A5446'); }
+  pill(active){ return 'padding:9px 16px;font-size:12px;letter-spacing:.06em;border-radius:2px;cursor:pointer;border:1px solid '+(active?'#2B2721':'rgba(43,39,33,.25)')+';background:'+(active?'#2B2721':'transparent')+';color:'+(active?'#F6F1E9':'#4A463E'); }
+  sizeChip(active){ return 'min-width:46px;text-align:center;padding:10px 6px;font-size:13px;border-radius:2px;cursor:pointer;border:1px solid '+(active?'#2B2721':'rgba(43,39,33,.25)')+';background:'+(active?'#2B2721':'transparent')+';color:'+(active?'#F6F1E9':'#4A463E'); }
+
+  renderVals(){
+    const s=this.state;
+    const priceBuckets={ 'All':[0,Infinity], '<':[0,100], 'mid':[100,500], 'high':[500,1500], '>':[1500,Infinity] };
+    const priceLabels={ 'All':'All prices', '<':'Under '+this.fmt(100), 'mid':this.fmt(100)+' \u2013 '+this.fmt(500), 'high':this.fmt(500)+' \u2013 '+this.fmt(1500), '>':this.fmt(1500)+'+' };
+
+    let list=this.products.filter(p=>
+      (s.fCategory==='All'||p.cat===s.fCategory) &&
+      (s.fMetal==='All'||p.metal===s.fMetal) &&
+      (s.fOccasion==='All'||p.occasion===s.fOccasion) &&
+      (p.price>=priceBuckets[s.fPrice][0] && p.price<priceBuckets[s.fPrice][1]));
+    if(s.sort==='priceLow') list=[...list].sort((a,b)=>a.price-b.price);
+    else if(s.sort==='priceHigh') list=[...list].sort((a,b)=>b.price-a.price);
+    else list=[...list].sort((a,b)=>(b.isNew?1:0)-(a.isNew?1:0));
+
+    const mkGroup=(title,key,vals,labels)=>({ title, options: vals.map(v=>({
+      label: labels?labels[v]:v, active: s[key]===v, style: this.chip(s[key]===v),
+      onClick:()=>this.setState({[key]:v}) })) });
+    const filterGroups=[
+      mkGroup('Category','fCategory',['All','Rings','Necklaces','Earrings','Bracelets']),
+      mkGroup('Metal','fMetal',['All','Gold','Silver','Gemstone']),
+      mkGroup('Price','fPrice',['All','<','mid','high','>'],priceLabels),
+      mkGroup('Occasion','fOccasion',['All','Everyday','Gifting','Bridal']),
+    ];
+
+    const cartLines=s.cart.map((l,i)=>{ const p=this.byId(l.id); return {
+      name:p.name, img:this.img(p), qty:l.qty, priceFmt:this.fmt(p.price*l.qty),
+      meta:[l.metal, l.size?('Size '+l.size):null].filter(Boolean).join(' \u00b7 '),
+      onInc:()=>this.changeLine(i,1), onDec:()=>this.changeLine(i,-1), onRemove:()=>this.removeLine(i),
+    }; });
+    const subtotal=s.cart.reduce((t,l)=>t+this.byId(l.id).price*l.qty,0);
+    const cartCount=s.cart.reduce((t,l)=>t+l.qty,0);
+
+    let pd=null;
+    if(s.page==='product' && s.productId){ const p=this.byId(s.productId); const g=this.gallery(p);
+      let rel=this.products.filter(x=>x.cat===p.cat && x.id!==p.id);
+      rel=[...rel, ...this.products.filter(x=>x.id!==p.id && x.cat!==p.cat)].slice(0,4);
+      const wished=s.wishlist.includes(p.id);
+      pd={ name:p.name, cat:p.cat, desc:p.desc, priceFmt:this.fmt(p.price), isRing:p.cat==='Rings',
+        mainImg:g[s.pdImage]||g[0], qty:s.pdQty, selectedMetal:s.pdMetal,
+        thumbs:g.map((im,i)=>({img:im, border:(i===s.pdImage?'1px solid #2B2721':'1px solid transparent'), onClick:()=>this.setState({pdImage:i})})),
+        metalOptions:p.options.map(m=>({label:m, style:this.pill(s.pdMetal===m), onClick:()=>this.setState({pdMetal:m})})),
+        sizes:this.sizes.map(z=>({label:z, style:this.sizeChip(s.pdSize===z), onClick:()=>this.setState({pdSize:z})})),
+        incQty:()=>this.setState(st=>({pdQty:st.pdQty+1})), decQty:()=>this.setState(st=>({pdQty:Math.max(1,st.pdQty-1)})),
+        onAdd:()=>this.addToCart(p.id,s.pdSize,s.pdMetal,s.pdQty),
+        onWish:()=>this.toggleWish(p.id), heart: wished?'#B5673F':'#6B6454', wishLabel: wished?'Saved to wishlist':'Add to wishlist',
+        accordions:[
+          {title:'Details & materials', body:p.desc+' '+p.materials+' Each piece arrives in signature Ip\u00ea packaging with a certificate of origin.', open:s.accInfo, icon:s.accInfo?'\u2212':'+', onToggle:()=>this.setState(st=>({accInfo:!st.accInfo}))},
+          {title:'Shipping & returns', body:'Complimentary insured worldwide shipping, with duties handled at checkout. 30-day returns and a lifetime warranty on craftsmanship, including free cleaning and repairs.', open:s.accShip, icon:s.accShip?'\u2212':'+', onToggle:()=>this.setState(st=>({accShip:!st.accShip}))},
+        ],
+        related:rel.map(r=>this.card(r)),
+      };
+    }
+
+    const catImg=(id)=>this.pex(id,560,440);
+    const shopTitles={All:'Shop All',Rings:'Rings',Necklaces:'Necklaces',Earrings:'Earrings',Bracelets:'Bracelets'};
+
+    return {
+      accent: this.props.accent || '#454B3A',
+      isHome:s.page==='home', isShop:s.page==='shop', isProduct:s.page==='product'&&!!pd, isAbout:s.page==='about',
+      goHome:()=>this.nav({page:'home'}), goAbout:()=>this.nav({page:'about'}),
+      goShopAll:()=>this.nav({page:'shop',fCategory:'All',fMetal:'All',fPrice:'All',fOccasion:'All'}),
+      navRings:()=>this.nav({page:'shop',fCategory:'Rings',fMetal:'All',fPrice:'All',fOccasion:'All'}),
+      navNecklaces:()=>this.nav({page:'shop',fCategory:'Necklaces',fMetal:'All',fPrice:'All',fOccasion:'All'}),
+      navEarrings:()=>this.nav({page:'shop',fCategory:'Earrings',fMetal:'All',fPrice:'All',fOccasion:'All'}),
+      navBracelets:()=>this.nav({page:'shop',fCategory:'Bracelets',fMetal:'All',fPrice:'All',fOccasion:'All'}),
+      currencyOptions:Object.keys(this.currencies).map(code=>({code, active:s.currency===code,
+        style:'cursor:pointer;padding:3px 6px;border-radius:2px;font-size:11px;letter-spacing:.06em;'+(s.currency===code?'background:#2B2721;color:#F6F1E9':'color:#8A8270'),
+        onClick:()=>this.setState({currency:code})})),
+      wishlistCount:s.wishlist.length, cartCount,
+      openCart:()=>this.setState({cartOpen:true}), closeCart:()=>this.setState({cartOpen:false}), cartOpen:s.cartOpen,
+      cartLines, cartEmpty:s.cart.length===0, hasCart:s.cart.length>0, subtotalFmt:this.fmt(subtotal),
+      homeCategories:[
+        {label:'Rings', img:catImg(15871523), onClick:()=>this.nav({page:'shop',fCategory:'Rings',fMetal:'All',fPrice:'All',fOccasion:'All'})},
+        {label:'Gold', img:catImg(1616096), onClick:()=>this.nav({page:'shop',fCategory:'All',fMetal:'Gold',fPrice:'All',fOccasion:'All'})},
+        {label:'Gemstones', img:catImg(14058109), onClick:()=>this.nav({page:'shop',fCategory:'All',fMetal:'Gemstone',fPrice:'All',fOccasion:'All'})},
+      ],
+      featured:['silver-wave','gold-signet','imperial-topaz','emerald-solitaire'].map(id=>this.card(this.byId(id))),
+      shopTitle:shopTitles[s.fCategory]||'Shop All', resultCount:list.length, noResults:list.length===0,
+      visibleProducts:list.map(p=>this.card(p)),
+      filterGroups, clearFilters:()=>this.setState({fCategory:'All',fMetal:'All',fPrice:'All',fOccasion:'All'}),
+      sort:s.sort, onSort:(e)=>this.setState({sort:e.target.value}),
+      pd,
+    };
+  }
+}
+</script>
 </body>
 </html>

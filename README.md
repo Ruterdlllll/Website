@@ -1,40 +1,30 @@
-# Boekweit Transport — Website
+# Ipê — Brazilian Jewelry Store
 
-Static, dependency-free redesign of the Boekweit Transport B.V. marketing site. Plain HTML/CSS/JS, no build step.
+Interactive design prototype for Ipê, a Brazilian handcrafted jewelry brand. Built as a self-contained
+HTML "Design Component" — `support.js` loads React, ReactDOM and Babel from unpkg at runtime and renders
+`index.html` client-side. No build step, but also no backend: cart, wishlist and checkout are all
+in-memory demo state.
 
-## Structure
+## Status: prototype, not production
 
-```
-index.html               Home
-diensten.html             Services (all 10, one page)
-historie.html             Company history
-certificeringen.html      Certifications & permits
-downloads.html            Documents
-contact.html               Contact form + map
-css/style.css              Shared design system
-js/main.js                 Hero slider, nav, scroll-reveal, counters
-assets/images/              Site imagery (logo, hero photos, service photos)
-tests/check-links.js       Zero-dependency checker: verifies every local href/src
-                            and #anchor across all pages resolves to a real file/id
-```
+This is a clickable mockup for reviewing design direction. Before treating it as a real storefront it
+still needs:
 
-## Run locally
+- A real checkout flow (the "Checkout" button currently has no handler) and a payment processor
+- Working footer pages (Sustainability, Contact, Journal, Shipping, Returns, Warranty)
+- A privacy policy / cookie notice / terms (the brand copy is Netherlands-based, so GDPR applies)
+- Server-rendered or static HTML instead of client-side Babel/JSX, for SEO and faster first paint
 
-No build tooling required — any static file server works:
+## Files
 
-```bash
-npm start
-# or: python -m http.server 8080
-```
+- `index.html` — the storefront (Home / Shop / Product / About / Cart)
+- `support.js` — the runtime that parses and renders `index.html`
 
-Then open http://localhost:8080.
-
-## Tests
+## Viewing locally
 
 ```bash
-npm test
+python3 -m http.server 8000
+# or: npx serve .
 ```
 
-Walks every `*.html` file and confirms all local links, stylesheets, scripts,
-images, and same-page/cross-page `#anchor` targets actually exist. Runs
-automatically in CI on every push/PR via `.github/workflows/test.yml`.
+Then visit `http://localhost:8000/`.
